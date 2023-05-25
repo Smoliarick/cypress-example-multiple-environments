@@ -104,14 +104,27 @@ Run [google autotest](cypress/e2e/tests/google) for [local environment](settings
 npx cypress run --env envName=local
 ```
 
+
+https://github.com/Smoliarick/cypress-example-multiple-environments/assets/104084410/05440eae-b92f-4876-987d-f92d19373903
+
+
 Run [google autotest](cypress/e2e/tests/google) for [prod environment](settings/prod.settings.json):
 
 ```
 npx cypress run --env envName=prod
 ```
 
+
+https://github.com/Smoliarick/cypress-example-multiple-environments/assets/104084410/b4c590e5-55f4-41b2-8423-dbe7d8f3dba9
+
+
 Run [bing autotest](cypress/e2e/tests/google) for [newApp environment](settings/newApp.settings.json):
 
 ```
 npx cypress run --env envName=newApp
 ```
+
+https://github.com/Smoliarick/cypress-example-multiple-environments/assets/104084410/3d835c09-ecb4-4ed3-8405-d738502814ef
+
+
+
