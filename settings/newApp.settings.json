@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://www.bing.com/",
+  "specPattern": "cypress/e2e/tests/bing/**/*.spec.{js, jsx, ts, tsx}",
+  "env": {
+    "login": "BING_LOGIN",
+    "password": "BING_PASSWORD"
+  }
+}

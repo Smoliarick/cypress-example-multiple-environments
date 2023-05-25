@@ -1,0 +1,8 @@
+{
+  "baseUrl": "https://www.google.com/",
+  "specPattern": "cypress/e2e/tests/google/**/*.spec.{js, jsx, ts, tsx}",
+  "env": {
+    "login": "GOOGLE_LOCAL_LOGIN",
+    "password": "GOOGLE_LOCAL_PASSWORD"
+  }
+}
