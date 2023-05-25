@@ -37,7 +37,7 @@ if (settings.env) {
 ```
 
 2. Create [settings](settings) folder in your project.
-3. Create settings file with this patter: `env_name.settings.json`, where `env_name` is name for your environment. Example: [local.settings.json](settings/local.settings.json)
+3. Create settings file with this pattern: `env_name.settings.json`, where `env_name` is name for your environment. Example: [local.settings.json](settings/local.settings.json)
 4. Add necessary settings into the settings file, example:
 
 ```json
@@ -96,7 +96,7 @@ The same for other Cypress commands in command line.
 
 ## Examples
 
-`envName` == environment name in your file name. Example: local.settings.json -> envName=local
+`envName` - environment name in your file name. Example: local.settings.json -> envName=local
 
 Run [google autotest](cypress/e2e/tests/google) for [local environment](settings/local.settings.json):
 
